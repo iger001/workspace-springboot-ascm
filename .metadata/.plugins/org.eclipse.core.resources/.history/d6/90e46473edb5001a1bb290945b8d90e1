@@ -1,0 +1,5 @@
+package com.datacubit.springboot.escuela;
+
+public class AppConfig {
+
+}

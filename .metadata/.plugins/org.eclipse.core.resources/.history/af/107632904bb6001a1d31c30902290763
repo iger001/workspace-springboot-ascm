@@ -1,0 +1,5 @@
+package com.datacubit.springboot.escuela.client;
+
+public class EstudianteClientRest {
+
+}

@@ -1,0 +1,4 @@
+INSERT INTO estudiante(id, nombre, apellidoPaterno, apellidoMaterno, edad, fechaAlta) VALUES('Gerardo','Ornelas','Rodriguez', 37, NOW());
+INSERT INTO estudiante(id, nombre, apellidoPaterno, apellidoMaterno, edad, fechaAlta) VALUES('Allan','Olalde','Fajardo', 38, NOW());
+INSERT INTO estudiante(id, nombre, apellidoPaterno, apellidoMaterno, edad, fechaAlta) VALUES('Juan','Perez','Ruiz', 47, NOW());
+INSERT INTO estudiante(id, nombre, apellidoPaterno, apellidoMaterno, edad, fechaAlta) VALUES('Irma','Martinez','Molina', 28, NOW());

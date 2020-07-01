@@ -1,0 +1,5 @@
+package com.datacubit.springboot.estudiante.models.service;
+
+public class EstudianteServiceImpl {
+
+}

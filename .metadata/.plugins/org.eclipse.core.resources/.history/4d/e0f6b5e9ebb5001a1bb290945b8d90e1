@@ -1,0 +1,6 @@
+package com.datacubit.springboot.escuela.model;
+
+public class Escuela {
+	private Estudiante estudiante;
+	private String nombreEscuela;
+}

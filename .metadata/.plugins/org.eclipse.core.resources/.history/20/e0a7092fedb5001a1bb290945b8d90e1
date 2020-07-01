@@ -1,0 +1,21 @@
+package com.datacubit.springboot.escuela.model.service;
+
+import java.util.List;
+
+import com.datacubit.springboot.escuela.model.Escuela;
+
+public class EscuelaServiceImpl implements IEscuelaService {
+
+	@Override
+	public List<Escuela> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Escuela findById(Integer id, String nombreEscuela) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

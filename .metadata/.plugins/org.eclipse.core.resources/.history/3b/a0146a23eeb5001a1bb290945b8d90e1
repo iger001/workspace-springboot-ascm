@@ -1,0 +1,30 @@
+package com.datacubit.springboot.escuela.model;
+
+public class Escuela {
+	private Estudiante estudiante;
+	private String nombreEscuela;
+
+	public Escuela() {
+	}
+	
+	public Escuela(Estudiante estudiante, String nombreEscuela) {
+		super();
+		this.estudiante = estudiante;
+		this.nombreEscuela = nombreEscuela;
+	}
+	
+	public Estudiante getEstudiante() {
+		return estudiante;
+	}
+	public void setEstudiante(Estudiante estudiante) {
+		this.estudiante = estudiante;
+	}
+	public String getNombreEscuela() {
+		return nombreEscuela;
+	}
+	public void setNombreEscuela(String nombreEscuela) {
+		this.nombreEscuela = nombreEscuela;
+	}
+	
+	
+}

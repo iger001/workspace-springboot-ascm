@@ -1,0 +1,5 @@
+package com.datacubit.springboot.escuela.model;
+
+public class Escuela {
+
+}

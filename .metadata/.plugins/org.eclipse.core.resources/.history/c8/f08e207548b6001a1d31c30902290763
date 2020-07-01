@@ -1,0 +1,13 @@
+package com.datacubit.springboot.escuela;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringbootServicioEscuelaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootServicioEscuelaApplication.class, args);
+	}
+
+}
