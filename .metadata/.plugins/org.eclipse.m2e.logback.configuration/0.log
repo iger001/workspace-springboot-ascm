@@ -1504,3 +1504,179 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-06-25 19:04:50,740 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-06-25 19:04:50,743 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-06-25 19:04:50,743 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-escuela\src\test\resources
+2020-07-05 10:14:48,847 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-07-05 10:15:32,065 [Worker-0: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-07-05 10:15:34,526 [Worker-0: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.datacubit.springboot.eureka:springboot-servicio-servidor-eureka:0.0.1-SNAPSHOT @ C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-eureka\pom.xml.
+2020-07-05 10:15:37,768 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-servicio-servidor-eureka/src/main/java
+2020-07-05 10:15:37,770 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-servicio-servidor-eureka/src/main/resources
+2020-07-05 10:15:37,780 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-servicio-servidor-eureka/src/main/resources
+2020-07-05 10:15:37,793 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-servicio-servidor-eureka/src/test/java
+2020-07-05 10:15:40,038 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.datacubit.springboot.escuela:springboot-servicio-escuela:0.0.1-SNAPSHOT @ C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-escuela\pom.xml.
+2020-07-05 10:15:43,650 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:15:43,657 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:15:43,675 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:15:43,678 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:15:43,678 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-escuela\src\test\resources
+2020-07-05 10:15:44,844 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.datacubit.springboot.estudiante:springboot-servicio-estudiante:0.0.1-SNAPSHOT @ C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-estudiante\pom.xml.
+2020-07-05 10:15:48,399 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:15:48,400 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:15:48,403 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:15:48,416 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:15:48,416 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-estudiante\src\test\resources
+2020-07-05 10:15:48,516 [Worker-0: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 16 sec
+2020-07-05 10:15:48,519 [Worker-0: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-07-05 10:15:50,822 [Worker-0: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.datacubit.springboot.escuela:springboot-servicio-escuela:0.0.1-SNAPSHOT @ C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-escuela\pom.xml.
+2020-07-05 10:15:52,540 [Worker-0: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.datacubit.springboot.zuul:springboot-servicio-servidor-zuul-apiGateway:0.0.1-SNAPSHOT @ C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-zuul-apiGateway\pom.xml.
+2020-07-05 10:15:53,469 [Worker-0: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.datacubit.springboot.estudiante:springboot-servicio-estudiante:0.0.1-SNAPSHOT @ C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-estudiante\pom.xml.
+2020-07-05 10:15:54,156 [Worker-0: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.datacubit.springboot.eureka:springboot-servicio-servidor-eureka:0.0.1-SNAPSHOT @ C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-eureka\pom.xml.
+2020-07-05 10:15:57,385 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-servicio-servidor-zuul-apiGateway/src/main/java
+2020-07-05 10:15:57,385 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-servicio-servidor-zuul-apiGateway/src/main/resources
+2020-07-05 10:15:57,395 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-servicio-servidor-zuul-apiGateway/src/main/resources
+2020-07-05 10:15:57,408 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-servicio-servidor-zuul-apiGateway/src/test/java
+2020-07-05 10:15:59,913 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:15:59,914 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:15:59,926 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:15:59,928 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:15:59,928 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-eureka\src\test\resources
+2020-07-05 10:16:00,186 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-servicio-estudiante/src/main/java
+2020-07-05 10:16:00,186 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-servicio-estudiante/src/main/resources
+2020-07-05 10:16:00,195 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-servicio-estudiante/src/main/resources
+2020-07-05 10:16:00,208 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-servicio-estudiante/src/test/java
+2020-07-05 10:16:01,752 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-servicio-servidor-eureka/src/main/java
+2020-07-05 10:16:01,752 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-servicio-servidor-eureka/src/main/resources
+2020-07-05 10:16:01,753 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-servicio-servidor-eureka/src/main/resources
+2020-07-05 10:16:01,757 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-servicio-servidor-eureka/src/test/java
+2020-07-05 10:16:04,109 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:16:04,112 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:16:04,116 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:16:04,123 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:16:04,123 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-estudiante\src\test\resources
+2020-07-05 10:16:04,741 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-servicio-escuela/src/main/java
+2020-07-05 10:16:04,742 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-servicio-escuela/src/main/resources
+2020-07-05 10:16:04,753 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot-servicio-escuela/src/main/resources
+2020-07-05 10:16:04,771 [Worker-0: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot-servicio-escuela/src/test/java
+2020-07-05 10:16:06,452 [Worker-0: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 17 sec
+2020-07-05 10:16:08,436 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:16:08,437 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:16:08,440 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:16:08,442 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:16:08,442 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-escuela\src\test\resources
+2020-07-05 10:16:08,816 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:16:08,818 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:16:08,821 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:16:08,824 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:16:08,825 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-eureka\src\test\resources
+2020-07-05 10:16:10,438 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:16:10,438 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:16:10,440 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:16:10,442 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:16:10,442 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-zuul-apiGateway\src\test\resources
+2020-07-05 10:22:34,499 [Worker-10: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.datacubik.springboot.eureka:springboot-servicio-servidor-eureka:0.0.1-SNAPSHOT @ C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-eureka\pom.xml.
+2020-07-05 10:22:36,012 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:22:36,013 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:22:36,015 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:22:36,017 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:22:36,017 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-eureka\src\test\resources
+2020-07-05 10:23:30,249 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:23:30,250 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:23:30,250 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:23:30,252 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:23:30,252 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-eureka\src\test\resources
+2020-07-05 10:25:12,313 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.datacubik.springboot.estudiante:springboot-servicio-estudiante:0.0.1-SNAPSHOT @ C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-estudiante\pom.xml.
+2020-07-05 10:25:14,087 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:25:14,088 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:25:14,090 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:25:14,093 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:25:14,094 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-estudiante\src\test\resources
+2020-07-05 10:25:31,273 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:25:31,273 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:25:31,273 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:25:31,275 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:25:31,275 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-estudiante\src\test\resources
+2020-07-05 10:26:12,380 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.datacubik.springboot.escuela:springboot-servicio-escuela:0.0.1-SNAPSHOT @ C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-escuela\pom.xml.
+2020-07-05 10:26:13,795 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:26:13,796 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:26:13,798 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:26:13,799 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:26:13,800 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-escuela\src\test\resources
+2020-07-05 10:26:37,841 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:26:37,841 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:26:37,841 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:26:37,843 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:26:37,843 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-escuela\src\test\resources
+2020-07-05 10:27:25,339 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.datacubik.springboot.zuul:springboot-servicio-servidor-zuul-apiGateway:0.0.1-SNAPSHOT @ C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-zuul-apiGateway\pom.xml.
+2020-07-05 10:27:26,846 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:27:26,847 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:27:26,849 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:27:26,851 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:27:26,851 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-zuul-apiGateway\src\test\resources
+2020-07-05 10:27:39,993 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:27:39,994 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:27:39,994 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:27:39,996 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:27:39,996 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-zuul-apiGateway\src\test\resources
+2020-07-05 10:31:08,892 [Worker-16: Launching Executing clean in C__SpringToolSuite_workspace-springboot-ascm_springboot-servicio-servidor-zuul-apiGateway] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-zuul-apiGateway
+2020-07-05 10:31:08,897 [Worker-16: Launching Executing clean in C__SpringToolSuite_workspace-springboot-ascm_springboot-servicio-servidor-zuul-apiGateway] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean -Dstyle.color=always
+2020-07-05 10:31:11,907 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:31:11,908 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:31:11,911 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:31:11,913 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:31:11,913 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-zuul-apiGateway\src\test\resources
+2020-07-05 10:31:19,475 [Worker-19: Launching Executing clean in C__SpringToolSuite_workspace-springboot-ascm_springboot-servicio-servidor-eureka] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-eureka
+2020-07-05 10:31:19,475 [Worker-19: Launching Executing clean in C__SpringToolSuite_workspace-springboot-ascm_springboot-servicio-servidor-eureka] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean -Dstyle.color=always
+2020-07-05 10:31:26,913 [Worker-19: Launching Executing clean in C__SpringToolSuite_workspace-springboot-ascm_springboot-servicio-estudiante] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-estudiante
+2020-07-05 10:31:26,913 [Worker-19: Launching Executing clean in C__SpringToolSuite_workspace-springboot-ascm_springboot-servicio-estudiante] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean -Dstyle.color=always
+2020-07-05 10:31:36,588 [Worker-20: Launching Executing clean in C__SpringToolSuite_workspace-springboot-ascm_springboot-servicio-escuela] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-escuela
+2020-07-05 10:31:36,589 [Worker-20: Launching Executing clean in C__SpringToolSuite_workspace-springboot-ascm_springboot-servicio-escuela] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean -Dstyle.color=always
+2020-07-05 10:31:40,084 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:31:40,085 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:31:40,088 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:31:40,089 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:31:40,090 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-escuela\src\test\resources
+2020-07-05 10:33:31,574 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:33:31,575 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:33:31,576 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:33:31,579 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:33:31,579 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-escuela\src\test\resources
+2020-07-05 10:33:31,805 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:33:31,805 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:33:31,807 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:33:31,812 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:33:31,812 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-estudiante\src\test\resources
+2020-07-05 10:33:31,992 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:33:31,992 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:33:31,993 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:33:31,995 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:33:31,995 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-eureka\src\test\resources
+2020-07-05 10:33:32,168 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:33:32,169 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:33:32,170 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:33:32,171 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:33:32,172 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-zuul-apiGateway\src\test\resources
+2020-07-05 10:33:45,523 [Worker-20: Launching Executing clean in C__SpringToolSuite_workspace-springboot-ascm_springboot-servicio-escuela] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-escuela
+2020-07-05 10:33:45,523 [Worker-20: Launching Executing clean in C__SpringToolSuite_workspace-springboot-ascm_springboot-servicio-escuela] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean -Dstyle.color=always
+2020-07-05 10:33:48,469 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:33:48,471 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:33:48,473 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:33:48,475 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:33:48,475 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-escuela\src\test\resources
+2020-07-05 10:35:35,116 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-07-05 10:36:34,412 [Worker-25: Launching Executing generate-sources in C__SpringToolSuite_workspace-springboot-ascm_springboot-servicio-escuela] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-escuela
+2020-07-05 10:36:34,413 [Worker-25: Launching Executing generate-sources in C__SpringToolSuite_workspace-springboot-ascm_springboot-servicio-escuela] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B generate-sources -Dstyle.color=always
+2020-07-05 10:37:13,778 [Worker-22: Launching Executing install in C__SpringToolSuite_workspace-springboot-ascm_springboot-servicio-escuela] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-escuela
+2020-07-05 10:37:13,778 [Worker-22: Launching Executing install in C__SpringToolSuite_workspace-springboot-ascm_springboot-servicio-escuela] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -Dstyle.color=always
+2020-07-05 10:37:18,786 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:37:18,787 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-05 10:37:18,789 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:37:18,791 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:37:18,791 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-escuela\src\test\resources
+2020-07-05 10:41:48,821 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:41:48,821 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:41:48,822 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:41:48,823 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:41:48,824 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-zuul-apiGateway\src\test\resources
+2020-07-05 10:41:55,696 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:41:55,697 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:41:55,697 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-05 10:41:55,699 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-05 10:41:55,699 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringToolSuite\workspace-springboot-ascm\springboot-servicio-servidor-zuul-apiGateway\src\test\resources

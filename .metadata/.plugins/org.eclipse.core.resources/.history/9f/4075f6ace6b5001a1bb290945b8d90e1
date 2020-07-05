@@ -1,5 +1,0 @@
-package com.datacubit.springboot.estudiante.models.dao;
-
-public interface EstudianteDAO {
-
-}

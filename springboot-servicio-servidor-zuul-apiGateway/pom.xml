@@ -8,7 +8,7 @@
 		<version>2.3.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.datacubit.springboot.zuul</groupId>
+	<groupId>com.datacubik.springboot.zuul</groupId>
 	<artifactId>springboot-servicio-servidor-zuul-apiGateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-servicio-servidor-zuul-apiGateway</name>

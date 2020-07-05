@@ -1,2 +1,0 @@
-spring.application.name=servicio-zuul-server
-server.port=80

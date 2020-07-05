@@ -1,8 +1,0 @@
-package com.datacubit.springboot.escuela.client;
-
-import org.springframework.cloud.openfeign.FeignClient;
-
-@FeignClient(name = "servicio-estudiante")
-public class EstudianteClientRest {
-
-}
