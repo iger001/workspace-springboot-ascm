@@ -1,5 +1,8 @@
 # workspace-springboot-ascm
-WorksSpace String Tool Suite, proyectos estudiante escuela, eureka server, zuul
+
+# 24 JUNIO 2020
+
+## WorksSpace String Tool Suite, proyectos estudiante escuela, eureka server, zuul
 
 EJEMPLO PRACTICO – registro eureka
 
@@ -47,8 +50,9 @@ Se habilitan los microservicios, en el API Gateway Zuul y en este ejemplo para p
       path : /api/escuela/**
 
 
-01 JULIO 2020
-Puerto dinámico : Hystrix : zuul filter
+# 01 JULIO 2020
+
+## Puerto dinámico : Hystrix : zuul filter
  
 Escalando servicio con puerto dinamico
  
@@ -63,7 +67,7 @@ Nota: Lo recomendable es agregar un id, único de cada instancia, para que sea r
     p.e. 
       eureka.instance.instance-id=${spring.application.name}:${spring.application.instance_id:${random.value}}
 
-¿Qué HYSTRIX?
+## ¿Qué HYSTRIX?
 
 Hystrix es una biblioteca de latencia y tolerancia a fallas diseñada para aislar puntos de acceso a sistemas remotos, servicios y bibliotecas de terceros, detener la falla en cascada y permitir la resistencia en sistemas distribuidos complejos donde la falla es inevitable, Hystrix implementa el patrón de diseño “circuit-breaker”.
 
@@ -73,7 +77,7 @@ A continuación se muestra el diagrama de secuencia de los estados: open y half-
 
 ![alt text](https://github.com/iger001/workspace-springboot-ascm/raw/master/extras/open_halfOpen.JPG)
 
-EJEMPLO PRACTICO – hystrix  (fallbackMethod – por timeout)
+EJEMPLO PRACTICO – hystrix (fallbackMethod – por timeout)
 
 ![alt text](https://github.com/iger001/workspace-springboot-ascm/raw/master/extras/falback_method.JPG)
 
@@ -82,7 +86,7 @@ Configuración hytrix.
 ![alt text](https://github.com/iger001/workspace-springboot-ascm/raw/master/extras/configuracionHystrix.JPG)
 
 
-¿Dónde encaja Zuul en el ecosistema de microservicios?
+## ¿Dónde encaja Zuul en el ecosistema de microservicios?
 
 Un problema común, al construir microservicios, es proporcionar una puerta de enlace única a las aplicaciones cliente de su sistema. El hecho de que sus servicios se dividan en pequeñas aplicaciones de microservicios que no deberían ser visibles para los usuarios, de lo contrario, puede resultar en esfuerzos sustanciales de desarrollo / mantenimiento. También hay escenarios en los que el tráfico de la red del ecosistema completo puede pasar por un punto único que podría afectar el rendimiento del clúster.
 
@@ -94,7 +98,7 @@ Zuul es un servicio perimetral que envía solicitudes a múltiples servicios de 
 
 Zuul components
 
-Zuul tiene principalmente cuatro tipos de filtros que nos permiten interceptar el tráfico en diferentes líneas de tiempo del procesamiento de la solicitud para cualquier transacción en particular. Podemos agregar cualquier cantidad de filtros para un patrón de URL particular.
+Zuul tiene principalmente cuatro tipos de filtros que nos permiten interceptar el tráfico en diferentes líneas de tiempo del procesamiento de la solicitud para cualquier transacción en particular. Podemos agregar cualquier cantidad de filtros para un patrón de URL particular.
 
         pre filters: se invocan antes de enrutar la solicitud.
         post filters: se invocan después de que se ha enrutado la solicitud.
