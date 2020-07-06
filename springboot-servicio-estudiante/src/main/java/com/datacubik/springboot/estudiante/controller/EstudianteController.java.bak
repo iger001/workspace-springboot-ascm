@@ -31,19 +31,6 @@ public class EstudianteController {
 	public Estudiante getEstudiante(@PathVariable int id) {
 		Estudiante estudiante = estudianteService.findById(id);
 		estudiante.setPort(Integer.parseInt(env.getProperty("local.server.port")));
-		
-		//int a = 5 /0;
-		
-		try {
-			for(int i = 0; i<5; i++) {
-				Thread.sleep(1000);
-				System.out.println("durmiendo en " + (i+1) );
-			}
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
 		return estudiante;
 	}
 }

@@ -11,8 +11,6 @@ public class Estudiante {
 	private int edad;
 	private Date fechaAlta;
 	
-	private Integer port;
-	
 	public int getId() {
 		return id;
 	}
@@ -49,12 +47,4 @@ public class Estudiante {
 	public void setFechaAlta(Date fechaAlta) {
 		this.fechaAlta = fechaAlta;
 	}
-	public Integer getPort() {
-		return port;
-	}
-	public void setPort(Integer port) {
-		this.port = port;
-	}
-	
-	
 }

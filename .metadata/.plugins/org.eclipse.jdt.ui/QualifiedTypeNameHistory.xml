@@ -13,7 +13,6 @@
 <fullyQualifiedTypeName name="com.datacubit.springboot.estudiante.models.dao.EstudianteDAO"/>
 <fullyQualifiedTypeName name="com.datacubit.springboot.estudiante.model.service.IEstudianteService"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
 <fullyQualifiedTypeName name="org.springframework.web.client.RestTemplate"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
@@ -40,4 +39,10 @@
 <fullyQualifiedTypeName name="org.springframework.data.annotation.Transient"/>
 <fullyQualifiedTypeName name="javax.persistence.Transient"/>
 <fullyQualifiedTypeName name="com.datacubit.springboot.escuela.model.Escuela"/>
+<fullyQualifiedTypeName name="com.netflix.zuul.ZuulFilter"/>
+<fullyQualifiedTypeName name="com.netflix.zuul.context.RequestContext"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="com.datacubik.springboot.zuul.filters.PreFilter"/>
 </qualifiedTypeNameHistroy>

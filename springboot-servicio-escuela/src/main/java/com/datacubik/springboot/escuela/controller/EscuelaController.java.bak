@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.datacubik.springboot.escuela.model.Escuela;
 import com.datacubik.springboot.escuela.model.Estudiante;
 import com.datacubik.springboot.escuela.model.service.IEscuelaService;
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 
 
@@ -32,16 +31,9 @@ public class EscuelaController {
 		return escuelaService.findAll();
 	}
 	
-	@HystrixCommand(fallbackMethod = "detalleEstudianteFallback")
 	@GetMapping("/detalleEstudiante/{id}")
-	public Estudiante detalleEstudiante(@PathVariable int id) {
+	public Estudiante detatalle(@PathVariable int id) {
 		return escuelaService.findById(id);
-	}
-	
-	public Estudiante detalleEstudianteFallback(int id) {
-		Estudiante e = new Estudiante();
-		e.setNombre("Error desde fallback");
-		return e;
 	}
 
 }
