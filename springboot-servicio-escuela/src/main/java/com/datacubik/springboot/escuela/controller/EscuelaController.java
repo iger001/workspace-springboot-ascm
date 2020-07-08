@@ -1,5 +1,6 @@
 package com.datacubik.springboot.escuela.controller;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,17 +23,27 @@ public class EscuelaController {
 	@Qualifier("serviceFeign")
 	private IEscuelaService escuelaService;
 	
+	@HystrixCommand(groupKey= "echoEscuela", commandKey= "echoEscuela", fallbackMethod = "echoEscuelaFallback")
 	@GetMapping("/echoEscuela")
 	public Escuela echoEscuela() {
 		return new Escuela();
 	}
 	
+	public Escuela echoEscuelaFallback() {
+		return new Escuela("UNAM", "CU");
+	}
+	
+	@HystrixCommand(groupKey= "listarEstudiantes", commandKey= "listarEstudiantes", fallbackMethod = "listarEstudiantesFallback")
 	@GetMapping("/listarEstudiantes")
 	public List<Estudiante> listarEstudiantes(){
 		return escuelaService.findAll();
 	}
 	
-	@HystrixCommand(fallbackMethod = "detalleEstudianteFallback")
+	public List<Estudiante> listarEstudiantesFallback(){
+		return new ArrayList<Estudiante>();
+	}
+	
+	@HystrixCommand(groupKey= "detalleEstudiante", commandKey= "detalleEstudiante", fallbackMethod = "detalleEstudianteFallback")
 	@GetMapping("/detalleEstudiante/{id}")
 	public Estudiante detalleEstudiante(@PathVariable int id) {
 		return escuelaService.findById(id);
