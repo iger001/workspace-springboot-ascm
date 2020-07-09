@@ -30,7 +30,7 @@ public class EscuelaController {
 	}
 	
 	public Escuela echoEscuelaFallback() {
-		return new Escuela("UNAM", "CU");
+		return new Escuela("x", "y");
 	}
 	
 	@HystrixCommand(groupKey= "listarEstudiantes", commandKey= "listarEstudiantes", fallbackMethod = "listarEstudiantesFallback")
@@ -54,5 +54,4 @@ public class EscuelaController {
 		e.setNombre("Error desde fallback");
 		return e;
 	}
-
 }
