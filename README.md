@@ -106,3 +106,6 @@ Zuul tiene principalmente cuatro tipos de filtros que nos permiten interceptar e
         error filters: se invocan cuando se produce un error al manejar la solicitud.
 
 ![alt text](https://github.com/iger001/workspace-springboot-ascm/raw/master/extras/zuulGatewayFilters.JPG)
+
+
+# 15 JULIO 2020
